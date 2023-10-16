@@ -1,0 +1,53 @@
+body{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    
+}
+/*general form*/
+form {
+    position: center;
+    color: rgb(10, 1, 6);
+    top: 60%;
+    left: 45%;
+    width: 35%;
+    border: 35px;
+    margin: 31%;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(70px);
+    box-shadow: 100px;
+    border-radius: 45px;
+   
+    
+ }
+ .input{
+   display: flex;
+    
+
+
+ }
+ form div input{
+    font-weight: bolder;
+    margin: 5px;
+    padding: 5px;
+    width:450px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+ }
+ button{
+    width: 90px;
+    height: 30px;
+    border-radius: 35px;
+    color: rgb(251, 250, 255);
+    background-color: rgb(26, 11, 235);
+ }
+ .Last{
+    margin: 25px;
+    
+ }

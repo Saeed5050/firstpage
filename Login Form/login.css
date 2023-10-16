@@ -1,0 +1,51 @@
+body{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    
+}
+/*general form*/
+form {
+    position: absolute;
+    color: antiquewhite;
+    top: 40%;
+    left: 45%;
+    width: 35%;
+    border: 30px;
+    margin: 5%;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(60px);
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+ }
+ .input{
+    display: flex;
+    
+
+
+ }
+ form DIV input{
+    font-weight: bolder;
+    
+    margin: 7px;
+    padding: 5px;
+    width:450px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+ }
+ button{
+    width: 400px;
+    height: 40px;
+    border-radius: 18px;
+    color: aliceblue;
+    background-color: rgb(70, 65, 75);
+ }
+ .Last{
+    margin: 15px;
+ }
